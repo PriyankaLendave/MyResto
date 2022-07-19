@@ -5,10 +5,14 @@
             height: 20px;
             color: black;
             height: auto;
+            font-family: 'Lobster', cursive;
+            z-index: 3;
         }
-         .obj{
-            background-image: url("./Images/image6.html");
-        } 
+          .carousel slide {
+            z-index: 2;
+
+       }
+         
         
         nav {
             font-size: 25px;
@@ -16,10 +20,15 @@
             
         }
 
-        body{
-            font-family: 'Rajdhani', sans-serif;
-        }
+        
 
         .socialLinks{
             font-size: 25px;
         }
+        .foot{
+            font-size: 15px;
+            background-color: green;
+            color: white;
+            font-family: 'Edu VIC WA NT Beginner', cursive;
+        }
+        
