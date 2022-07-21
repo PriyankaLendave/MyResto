@@ -1,34 +1,50 @@
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    color: black;
+    height: auto;
+    font-family: 'Lobster', cursive;
+    z-index: 3;
+}
 
-        nav a{ 
-            margin-left: 10px;
-            margin-right: 10px;
-            height: 20px;
-            color: black;
-            height: auto;
-            font-family: 'Lobster', cursive;
-            z-index: 3;
-        }
-          .carousel slide {
-            z-index: 2;
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    font-size: 60px;
+}
 
-       }
-         
-        
-        nav {
-            font-size: 25px;
-            text-decoration: none;
-            
-        }
+nav {
+    font-size: 25px;
+    text-decoration: none;
 
-        
+}
+.container .contact_section p{
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+.container .contact_section h1{
+    font-weight: 800;
+    font-family: 'Lobster'
+}
+.obj{
+    background-image: url(../Images/menu3.jpg);
+}
 
-        .socialLinks{
-            font-size: 25px;
-        }
-        .foot{
-            font-size: 15px;
-            background-color: green;
-            color: white;
-            font-family: 'Edu VIC WA NT Beginner', cursive;
-        }
-        
+
+
+
+.socialLinks {
+    font-size: 25px;
+}
+
+.foot {
+    position: fixed;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-top: 20px;
+    
+}
